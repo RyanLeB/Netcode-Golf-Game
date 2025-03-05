@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 1391558666961757222}
   - component: {fileID: 4576798278650091899}
   - component: {fileID: 4182173102043785262}
-  - component: {fileID: 549222337367819262}
+  - component: {fileID: 2733218117481854293}
   m_Layer: 0
   m_Name: Hole
   m_TagString: Untagged
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 809776004
+  GlobalObjectIdHash: 2320969685
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -182,7 +182,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.6276093, y: 2.3705397, z: 6.6234055}
   m_Center: {x: -0.084683895, y: -0.6852696, z: -0.15437365}
---- !u!114 &549222337367819262
+--- !u!114 &2733218117481854293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,8 +191,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6241353897023304717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4ddc2e40e4833d4a9222fc7f858b58c, type: 3}
+  m_Script: {fileID: 11500000, guid: 56eac4812814b164d8aeb93d1968e00b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  homePointText: {fileID: 0}
-  awayPointText: {fileID: 0}
+  ballPrefab: {fileID: 4677050761261304524, guid: 303a5983de1b1704a899e47923cab35e, type: 3}
+  ballSpawnPoint: {fileID: 0}

@@ -19,7 +19,11 @@ public class GolfHole : NetworkBehaviour
         {
             Debug.Log("Ball entered hole");
             HandleGoalServerRpc(gameObject.CompareTag("Flag"));
-            Destroy(collider.gameObject);
+            NetworkObject networkObject = collider.gameObject.GetComponent<NetworkObject>();
+            if (networkObject != null)
+            {
+                networkObject.Despawn();
+            }
         }
     }
 

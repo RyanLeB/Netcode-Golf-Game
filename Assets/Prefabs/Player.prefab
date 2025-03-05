@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 902139211
+  GlobalObjectIdHash: 161691005
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -237,10 +237,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6853637897400149199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e738961e3fa9044c9885a474c69befb, type: 3}
+  m_Script: {fileID: 11500000, guid: b679c3999804d6d48b8556b64e38adc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9
 --- !u!54 &4011470559713364644
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -320,7 +319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6853637897400149199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b20e08bbb2790478927e36363b2388, type: 3}
+  m_Script: {fileID: 11500000, guid: 5732cf12c81c8414dbeda0b23361a6a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &7388984913503081762

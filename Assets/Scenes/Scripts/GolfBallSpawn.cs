@@ -40,10 +40,13 @@ public class GolfBallSpawn : NetworkBehaviour
     {
         if (collider.gameObject.CompareTag("Ball"))
         {
-            Destroy(collider.gameObject);
+            NetworkObject networkObject = collider.gameObject.GetComponent<NetworkObject>();
+            if (networkObject != null)
+            {
+                networkObject.Despawn();
+            }
             currentBall.Value = default;
             SpawnBall();
-            
         }
     }
 }
